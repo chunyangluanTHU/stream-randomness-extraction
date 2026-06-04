@@ -1,0 +1,34 @@
+# MATLAB temporary and autosave files
+*.asv
+*.m~
+*.mat~
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large or third-party raw data files not distributed in this repository
+rawData_000.dat
+rawdata10G
+randomdata5G
+randomdata10G
+
+# ASCII-expanded NIST inputs are redundant with binary inputs and can be very large
+NIST_FinalRD_*_ascii.txt
+
+# MATLAB figures and intermediate GUI files
+*.fig
+
+# NIST STS generated intermediate folders
+experiments/

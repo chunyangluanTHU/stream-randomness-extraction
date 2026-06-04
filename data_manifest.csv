@@ -1,0 +1,23 @@
+file,path,purpose,used_for
+Benchmark_Block_Runtime_3Algo_alpha_rawdata.m,scripts/,MATLAB script for block-mode runtime benchmark,Runtime comparison figures
+Benchmark_Stream_Runtime_3Algo_alpha_rawdata.m,scripts/,MATLAB script for stream-mode mask/XOR/runtime benchmark,Runtime comparison figures
+Plot_Block_Stream_Comparison_3Algo_alpha_rawdata.m,scripts/,MATLAB script for plotting runtime comparisons,Figure_Runtime_alpha50_rawdata.png and Figure_Runtime_alpha80_rawdata.png
+Generate_NIST_Input_3Algo_alpha.m,scripts/,MATLAB script for generating extracted bitstreams used as NIST inputs,NIST SP 800-22 tests
+Check_NIST_Input_Files.m,scripts/,MATLAB script for checking NIST input file sizes,NIST input preparation
+BasicStats_NIST_Input_Files.m,scripts/,MATLAB script for basic frequency and lag-1 checks of NIST inputs,NIST input preparation
+Block_Runtime_3Algo_alpha_rawdata.csv,runtime_data/,Processed block-mode runtime data,Runtime comparison figures
+Stream_Runtime_3Algo_alpha_rawdata.csv,runtime_data/,Processed stream-mode runtime data including mask and total runtime,Runtime comparison figures
+NIST_FinalRD_Toeplitz_alpha50.bin,nist_inputs/,Extracted bitstream for Toeplitz extractor at k/n=0.5,NIST SP 800-22 input
+NIST_FinalRD_Circulant_alpha50.bin,nist_inputs/,Extracted bitstream for circulant extractor at k/n=0.5,NIST SP 800-22 input
+NIST_FinalRD_ModifiedToeplitz_alpha50.bin,nist_inputs/,Extracted bitstream for modified Toeplitz extractor at k/n=0.5,NIST SP 800-22 input
+NIST_FinalRD_Toeplitz_alpha80.bin,nist_inputs/,Extracted bitstream for Toeplitz extractor at k/n=0.8,NIST SP 800-22 input
+NIST_FinalRD_Circulant_alpha80.bin,nist_inputs/,Extracted bitstream for circulant extractor at k/n=0.8,NIST SP 800-22 input
+NIST_FinalRD_ModifiedToeplitz_alpha80.bin,nist_inputs/,Extracted bitstream for modified Toeplitz extractor at k/n=0.8,NIST SP 800-22 input
+Toeplitz_alpha50_finalAnalysisReport.txt,nist_reports/,NIST final report for Toeplitz extractor at k/n=0.5,NIST result
+Circulant_alpha50_finalAnalysisReport.txt,nist_reports/,NIST final report for circulant extractor at k/n=0.5,NIST result
+ModifiedToeplitz_alpha50_finalAnalysisReport.txt,nist_reports/,NIST final report for modified Toeplitz extractor at k/n=0.5,NIST result
+Toeplitz_alpha80_finalAnalysisReport.txt,nist_reports/,NIST final report for Toeplitz extractor at k/n=0.8,NIST result
+Circulant_alpha80_finalAnalysisReport.txt,nist_reports/,NIST final report for circulant extractor at k/n=0.8,NIST result
+ModifiedToeplitz_alpha80_finalAnalysisReport.txt,nist_reports/,NIST final report for modified Toeplitz extractor at k/n=0.8,NIST result
+Figure_Runtime_alpha50_rawdata.png,figures/,Runtime comparison figure at k/n=0.5,Manuscript figure
+Figure_Runtime_alpha80_rawdata.png,figures/,Runtime comparison figure at k/n=0.8,Manuscript figure

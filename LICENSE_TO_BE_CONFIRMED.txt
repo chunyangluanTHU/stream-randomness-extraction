@@ -1,0 +1,7 @@
+# License To Be Confirmed
+
+No software license has been finalized yet.
+
+Before public release, the authors should decide whether to use an open-source license such as MIT, BSD-3-Clause, GPL, or another license. If the authors agree to use MIT License, replace this file with a standard `LICENSE` file and fill in the copyright holder.
+
+Until a license is added, users should treat the code and data in this repository as provided for review and reproducibility of the associated manuscript only.
