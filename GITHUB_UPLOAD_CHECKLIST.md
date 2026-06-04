@@ -1,37 +1,16 @@
-# GitHub Upload Checklist
+# GitHub / Zenodo Final Checklist
 
-Before making the repository public, please check the following items.
+## DOI
 
-## File names
+- [x] Zenodo DOI generated: https://doi.org/10.5281/zenodo.20542218
+- [x] DOI added to `README.md`
+- [x] DOI added to `DATA_AVAILABILITY_STATEMENT.md`
+- [x] Appendix B table caption refers to the Zenodo repository via the Data Availability Statement
 
-- [ ] `NIST_FinalRD_Hayashi_alpha50.bin` has been renamed to `NIST_FinalRD_ModifiedToeplitz_alpha50.bin`.
-- [ ] `NIST_FinalRD_Hayashi_alpha80.bin` has been renamed to `NIST_FinalRD_ModifiedToeplitz_alpha80.bin`.
-- [ ] The corresponding NIST reports use `ModifiedToeplitz` in the public file names.
+## Repository files
 
-## Required folders
-
-- [ ] `scripts/`
-- [ ] `runtime_data/`
-- [ ] `nist_inputs/`
-- [ ] `nist_reports/`
-- [ ] `figures/`
-
-## Root-level documentation
-
-- [ ] `README.md`
-- [ ] `data_manifest.csv`
-- [ ] `NIST_STS_notes.md`
-- [ ] `DATA_AVAILABILITY_STATEMENT.md`
-- [ ] `.gitignore`
-- [ ] `LICENSE_TO_BE_CONFIRMED.txt` or an author-approved license file
-
-## Data and code policy
-
-- [ ] Confirm whether the authors want to use MIT, BSD, GPL, or no explicit open-source license.
-- [ ] Do not upload large third-party raw files unless the authors confirm redistribution is allowed.
-- [ ] Confirm that the repository does not include private paths, usernames, or local system-specific files.
-
-## Zenodo DOI
-
-- [ ] If a Zenodo DOI is generated, update the DOI in `README.md`.
-- [ ] If a Zenodo DOI is generated, update the manuscript Data Availability Statement.
+- [ ] Confirm `nist_inputs/` contains `NIST_FinalRD_ModifiedToeplitz_alpha50.bin`
+- [ ] Confirm `nist_inputs/` contains `NIST_FinalRD_ModifiedToeplitz_alpha80.bin`
+- [ ] Confirm there are no public files named `NIST_FinalRD_Hayashi_alpha50.bin` or `NIST_FinalRD_Hayashi_alpha80.bin`
+- [ ] Confirm no large third-party raw data files are included by mistake
+- [ ] Confirm no `NIST_FinalRD_*_ascii.txt`, `.fig`, or `experiments/` folders are included

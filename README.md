@@ -4,7 +4,13 @@ This repository contains the supporting code and processed data for the manuscri
 
 **Stream randomness extraction against quantum side information**
 
-The repository is intended to support reproducibility of the numerical runtime figures and the NIST SP 800-22 statistical sanity checks reported in the manuscript.
+It supports reproducibility of the numerical runtime figures and the NIST SP 800-22 statistical sanity checks reported in the manuscript.
+
+## Archived version
+
+The archived version of this repository corresponding to the manuscript submission is available at:
+
+https://doi.org/10.5281/zenodo.20542218
 
 ## Repository contents
 
@@ -143,12 +149,13 @@ k/n = 0.5: 65  * 1,000,000 = 65,000,000 bits
 k/n = 0.8: 104 * 1,000,000 = 104,000,000 bits
 ```
 
-## Suggested citation
+## Citation
 
-If this repository is used, please cite the manuscript:
+If this repository is used, please cite the manuscript and the archived repository:
 
 ```text
 C.-Y. Luan et al., "Stream randomness extraction against quantum side information", arXiv: [to be filled].
+Supporting data and scripts: https://doi.org/10.5281/zenodo.20542218
 ```
 
 ## License

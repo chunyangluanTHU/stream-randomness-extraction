@@ -1,11 +1,21 @@
-# Data Availability Statement Draft
+# Data Availability Statement
 
-Use this text in the manuscript after the authors have created the public repository and, if applicable, generated a Zenodo DOI.
+Use the following text in the manuscript.
 
-## Version with GitHub or Zenodo placeholder
+```latex
+\section*{Data Availability Statement}
 
-The MATLAB scripts, processed runtime data, extracted bitstreams used as inputs to the NIST SP 800-22 statistical tests, and the corresponding NIST final analysis reports are available at [GitHub/Zenodo repository link]. The original quantum random number generation data used in the numerical benchmark are from Ref. [Nie et al.]. Additional information is available from the corresponding authors upon reasonable request.
+The MATLAB scripts, processed runtime data, extracted bitstreams used as inputs to the NIST SP~800-22 statistical tests, and the corresponding NIST final analysis reports are available at \url{https://doi.org/10.5281/zenodo.20542218}. 
+The original quantum random number generation data used in the numerical benchmark are from Ref.~\cite{nie2015generation}. 
+Additional information is available from the corresponding authors upon reasonable request.
+```
 
-## Version with Zenodo DOI
+If the manuscript template does not support `\url`, use the plain-text version below:
 
-The MATLAB scripts, processed runtime data, extracted bitstreams used as inputs to the NIST SP 800-22 statistical tests, and the corresponding NIST final analysis reports are available at [Zenodo DOI]. The original quantum random number generation data used in the numerical benchmark are from Ref. [Nie et al.]. Additional information is available from the corresponding authors upon reasonable request.
+```latex
+\section*{Data Availability Statement}
+
+The MATLAB scripts, processed runtime data, extracted bitstreams used as inputs to the NIST SP~800-22 statistical tests, and the corresponding NIST final analysis reports are available at https://doi.org/10.5281/zenodo.20542218. 
+The original quantum random number generation data used in the numerical benchmark are from Ref.~\cite{nie2015generation}. 
+Additional information is available from the corresponding authors upon reasonable request.
+```
